@@ -3,18 +3,67 @@
 <html>
 <head> 
     <title> Index </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        header{
+            color:darkblue ;
+            background-color:cornsilk;
+        }
+        .detailsMargin{
+         margin-right: 20px;   
+        }
+        .downMargin{
+         margin-right: 30px;
+         font-family: 'Bebas Neue', cursive;
+         color: rgb(219, 46, 75);  
+        }
+    .footermargin{
+        margin-right: 20px;
+    } 
+    body{
+        background-color: rgb(241, 236, 185);
+    }
+    </style>
+
+    
+    <!-- CDN link --><link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <a href="home.html" target="myframe" >Home </a> &nbsp;
-    <a href="techstack.html" target="myframe" >Tech Stack</a> &nbsp;
-<a href="eductional.html" target="myframe" >Education </a> &nbsp;
-<a href="contactus.html" target="myframe">Contact us</a>
 
-<br><br>
-<iframe width="1050px" height="500px" name="myframe">
+    <header>
+        <strong class="detailsMargin"> <i class="fa fa-user" aria-hidden="true"></i> Mohit sharma</strong>  
+        <strong class="detailsMargin"> <i class="fa fa-mobile" aria-hidden="true"></i>: 8800 4433 77</strong> 
+        <strong class="detailsMargin"> <i class="fa fa-envelope" aria-hidden="true"></i>: abc@gmail.com </strong>
 
+    </header> <br>
+    <nav>
+        <a href="home.html" target="myframe" class="downMargin" >Home </a>  
+        <a href="techstack.html" target="myframe" class="downMargin" >Tech Stack</a>  
+    <a href="eductional.html" target="myframe" class="downMargin">Education </a>  
+    <a href="personaldetails.html" target="myframe" class="downMargin"> PersonalDetils</a> 
+    <a href="hobbies.html" target="myframe" class="downMargin"> Hobbies</a> 
+    <a href="contactus.html" target="myframe" class="downMargin">Contact us</a>
 
+    </nav>
+    <br>
+     
+<iframe width="1050px" height="500px" name="myframe" src="home.html">
 </iframe>
+    <footer>
+        <strong class="footermargin"> Follow Me: </strong>
+        <span class="footermargin"><a href="https://www.instagram.com/" target="_blank"  <i class="fa fa-instagram" aria-hidden="true" ></i> </a> </span>
+        <span class="footermargin"><a href="https://www.facebook.com/" target="_blank"     <i class="fa fa-facebook-square" aria-hidden="true"></i></a> </span>
+        <span class="footermargin"> <a href="https://in.linkedin.com/" target="_blank" <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
+        <span class="footermargin"><a href="https://twitter.com/" target="_blank" <i class="fa fa-twitter-square" aria-hidden="true"></i></a></span>
+        
+
+    </footer>
+
+
+
 </body>
 </html>
